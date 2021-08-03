@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 
 // connect to database nd create a new database 
-mongoose.connect("mongodb://localhost:27017/olympics",
+mongoose.connect("mongodb+srv://yashgangwar:Yash12345@cluster0.vo961.mongodb.net/Olympics?retryWrites=true&w=majority",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
